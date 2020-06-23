@@ -1,0 +1,70 @@
+
+body{
+    background: url("image4.jpeg");
+    background-size: cover;
+    background-attachment: fixed;
+  background-size: 100% 100%;
+}
+label{
+    font-weight: 600;
+}
+.container{
+    height: 100vh;
+    align-items: center;
+    width: 100%;
+    background: rgba(245, 123, 79,0);
+}
+input[type=text] {
+    margin-bottom: 15px;
+    margin-right: 0px;
+    width: 350px;
+    border: none;
+    background-color: rgba(107, 73, 73, 0.308);
+    border-bottom: 3px solid rgba(11, 12, 12, 0.534);
+  }
+  input[type=text]:focus {
+    outline: none;
+    background-color: rgba(0,0,0,0);
+    border-bottom: 3px solid rgba(11, 12, 12, 0.534);
+    border-radius: 3px;
+  }
+  input[type=password] {
+    margin-bottom: 15px;
+    margin-right: 0px;
+    width: 350px;
+    border: none;
+    background-color: rgba(107, 73, 73, 0.308);
+    border-bottom: 3px solid rgba(11, 12, 12, 0.534);
+    border-radius: 0px;;
+  }
+  input[type=password]:focus {
+    outline: none;
+    background-color: rgba(0,0,0,0);
+    border-bottom: 3px solid rgba(11, 12, 12, 0.534);
+    border-radius: 3px;
+  }
+  .jumb{
+      border: 5px solid rgba(11, 12, 12, 0.534);
+      border-radius: 5px;
+      margin:auto ;
+      margin-top: 50px;
+      max-width: 700px;
+      padding: 50px;
+      text-align: center;
+      background-color: coral;
+  }
+  .submit{
+      align-items: center;
+      margin: auto;
+      width: 300px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+  }
+  a{
+      color: whitesmoke;
+  }
+  .checkbox{
+      display: inline-block;
+      margin-bottom:20px;
+  }
